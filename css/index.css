@@ -205,3 +205,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.main-about {
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%
+}
