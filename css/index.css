@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 2.5%;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +126,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;  
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +204,83 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    padding: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.container-about-page h2 {
+    margin-top: 5%;
+}
+
+.main-about {
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5%;
+    width: 100%;
+}
+
+.row-1-column-1 {
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row-1-column-2 {
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row-2-column-1 {
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row-2-column-2 {
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer-about {
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5%;
+    width: 100%;
+}
+
+button {
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+    height: 44px;
+    width: 150px;
+    font-weight: bold;
 }
